@@ -241,7 +241,7 @@ const Landing = () => {
       return;
     }
     
-    // Generate random order code: SPICEFOODS + 6 random chars
+    // Generate random order code: MINHDUC + 6 random chars
     const randomStr = Math.random().toString(36).substring(2, 8).toUpperCase();
     setOrderCode(`MINHDUC${randomStr}`);
     setShowPaymentOptions(true);
@@ -1098,7 +1098,7 @@ const Landing = () => {
               </div>
             </div>
             <span className="text-xl font-bold tracking-tighter text-red-600">
-              SPICE FOODS
+              MINH ĐỨC
             </span>
           </div>
           <div className="text-gray-400 text-sm">
